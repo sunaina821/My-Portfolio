@@ -1,0 +1,436 @@
+/*header section */
+.item{
+    
+    height: 750px;
+
+}
+
+
+
+a {
+	text-decoration:none !important;
+}
+a:hover {
+	text-decoration:none !important;
+}
+
+.Mymenu{
+	background-color: #808080 !important;
+    border-color: #808080 !important;
+	    min-height: 86px !important;
+
+}
+.bold
+{
+	font-size:20px !important;
+	color:black !important;
+	font-weight:bold !important;
+	
+}
+.box-text{
+	z-index: 1;
+	position: relative;
+	text-align: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    height: 96.3%;
+    opacity: 0.2;
+    margin: 15px;
+    background-color: #060606;
+    z-index: 0;
+}
+.roombook-padding
+{
+	    padding-top: 70px;
+}
+.slider-text
+{
+	    position: absolute !important;
+    font-size: 30px !important;
+}
+.right
+{
+	padding-right:20px;
+}
+.fullwidth
+{
+	padding:0px 50px 0px 50px !important;
+}
+.nav li a{
+color:#fff !important;
+}
+.nav li .active{
+color:#C19B76 !important;
+}
+.nav li a:hover{
+color:#C19B76 !important;
+}
+
+.dropdown-menu{
+	background-color: #808080 !important;
+    border-color: #808080 !important;;
+}
+.navleft
+{
+	margin-left:140px !important;
+}
+.menucenter
+{
+    margin-right: 335px !important;
+    font-family: Candara !important;
+    font-size: 16px !important;
+    padding: 19px 0px 0px 0px  !important;
+}
+.margin-bottom-menu
+{
+	    margin-bottom: 0px !important;
+	    border: 0px solid transparent !important;
+	    background-color: rgba(40, 39, 39, 0.79) !important;
+}
+.footer
+{
+background-color: #3a3838;
+    padding: 30px 0px 108px 0px;
+    color: white ;
+    text-align: center;
+    font-size: 25px;
+    font-family: -webkit-pictograph;
+}
+.footer1
+{
+    background-color: #3a3838;
+    padding: 30px 0px 40px 0px;
+    color: white !important;
+    text-align: center;
+    font-size: 25px;
+    font-family: -webkit-pictograph;
+}
+.footer2
+{
+    background-color: #3a3838;
+    padding: 0px 15px 12px 0px;
+    color: white !important;
+    font-size: 15px;
+    font-family: calibri light;
+}
+.footer3
+{
+	padding-right:17px;
+}
+
+.footer-menu
+{
+	    background-color: black;
+
+}
+.footer-menu1
+{
+	    background-color: black;
+
+}
+.active-center
+{
+    font-size: 14px;
+    font-family: serif;
+	    margin-left: 310px;
+}
+.footer-text
+{
+	    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px 0px 15px 0px;
+		font-family: calibri ;
+}
+.footer-text1
+{
+	background-color:black;
+	    padding-left: 20px;
+		font-family: calibri light;
+		 color: #dad6d6;
+}
+.connect
+{
+	    border-radius: 15px;
+    border: 1px #3a3838 solid;
+    font-size: 15px !important;
+    padding: 5px 8px 5px 8px;
+    background-color: #656060;
+	color: #fff;
+}
+.connect1
+{
+    border-radius: 37px;
+    border: 1px #3a3838 solid;
+    font-size: 15px !important;
+    padding: 5px 5px 5px 6px;
+    background-color: #656060;
+	color: #fff;
+}
+.connect2
+{
+	    border-radius: 24px;
+    border: 1px #3a3838 solid;
+    font-size: 15px !important;
+    padding: 5px 3px 5px 5px;
+    background-color: #656060;
+	color: #fff;
+}
+.connect3
+{
+    border-radius: 15px;
+    border: 1px #3a3838 solid;
+    font-size: 15px !important;
+    padding: 5px 7px 5px 7px;
+    background-color: #656060;
+	color: #fff;
+}
+.paragraph
+{
+	    font-size: 30px;
+		    letter-spacing: 0.5px;
+			    margin-bottom: 18px !important;
+				font-family:Century Schoolbook;
+}
+.footer-padding-top
+{
+	    padding-top: 120px;
+}
+.footer-margin
+{
+	    margin-top: 100px;
+}
+.box
+{
+
+height:400px;
+
+color: #ffffffc7;
+
+font-size:25px;
+
+background-image:url("pictures/silverhome.JPG");
+
+padding-top: 325px;
+
+margin-top:15px;
+
+font-weight:700;
+
+text-align: center;
+}
+.box1
+{
+
+height:400px;
+
+color: #ffffffc7;
+
+font-size:25px;
+
+background-image:url("pictures/goldhome.JPG");
+
+padding-top: 325px;
+
+margin-top:15px;
+
+font-weight:700;
+
+text-align: center;
+}
+
+.box2
+{
+
+height:400px;
+
+color: #ffffffc7;
+
+font-size:25px;
+
+background-image:url("pictures/dimaondhome.jpg");
+
+padding-top: 325px;
+
+margin-top:15px;
+
+font-weight:700;
+
+text-align: center;
+}
+
+.box3
+{
+
+height:400px;
+
+color: #ffffffc7;
+
+font-size:25px;
+
+background-image:url("pictures/parthall.jpg");
+
+padding-top: 325px;
+
+margin-top:15px;
+
+font-weight:700;
+
+text-align: center;
+}
+.box4
+{
+
+height:400px;
+
+color: #ffffffc7;
+
+font-size:25px;
+
+background-image:url("pictures/meetinghall.jpg");
+
+padding-top: 325px;
+
+margin-top:15px;
+
+font-weight:700;
+
+text-align: center;
+}
+.box5
+{
+
+height:400px;
+
+color: #ffffffc7;
+
+font-size:25px;
+
+background-image:url("pictures/conferencehall.jpg");
+
+padding-top: 325px;
+
+margin-top:15px;
+
+font-weight:700;
+
+text-align: center;
+}
+
+.display
+{
+	display:block !important;
+	
+}
+.display1
+{
+	padding:218px 0px 218px 0px !important;
+	
+}
+.display1:hover
+{
+	padding:200px 0px 236px 0px !important;
+	
+}
+.room-heading
+{
+	    font-size: 50px;
+    color: #f9bb80;
+    font-family: initial;
+    font-weight: 700;
+    text-align: center;
+}
+.text-padding
+{
+    padding-bottom: 100px;
+    margin-top: 85px;
+    font-size: 20px;
+    font-family: initial;
+    letter-spacing: 1px;
+}
+.padding
+{
+	padding:30px;
+}
+.boxhover
+{
+	width: 92.6%;
+	height: 400px;
+	color: #ffffff;
+	background-color: rgba(18, 17, 17, 0.52);
+	position: absolute;
+	display: none;
+	top: 15px;
+}
+
+.innerBox{
+    margin: 22px;
+    padding: 160px 0px 159px 0px;
+    text-align: center;
+    border: 1px #f9bb80 solid;
+    width: 305px;
+}
+
+.center
+{
+	padding-top:20px;
+	text-align:center;
+	background-color:gray;
+	    padding-bottom: 20px;
+}
+.fixed
+{
+	position:fixed;
+	    width: 100%;
+    z-index: 1;
+}
+.text
+{
+	padding-top:150px;
+	text-align:center;
+	color:white;
+}
+.menu
+{
+     float: left;
+    padding: 9px 0px 10px 57px;
+     color:#C19B76;
+    font-family: Candara;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menu:hover
+{
+     color:#C19B76;
+    text-decoration: none;
+}
+.box:hover .boxhover
+{
+display:block;
+}
+.box1:hover .boxhover
+{
+display:block;
+}
+.box2:hover .boxhover
+{
+display:block;
+}
+.box3:hover .boxhover
+{
+display:block;
+}
+.box4:hover .boxhover
+{
+display:block;
+}
+.box5:hover .boxhover
+{
+display:block;
+}
