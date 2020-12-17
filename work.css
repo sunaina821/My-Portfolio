@@ -1,0 +1,397 @@
+a {
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.Mymenu {
+    background-color: #808080 !important;
+    border-color: #808080 !important;
+    min-height: 86px !important;
+
+}
+
+.bold {
+    font-size: 20px !important;
+    color: black !important;
+    font-weight: bold !important;
+
+}
+
+.right {
+    padding-right: 20px;
+}
+
+.fullwidth {
+    padding: 0px 50px 0px 50px !important;
+}
+
+.nav li a {
+    color: #fff !important;
+}
+
+.nav li .active {
+    color: #C19B76 !important;
+}
+
+.nav li a:hover {
+    color: #C19B76 !important;
+}
+
+.dropdown-menu {
+    background-color: #808080 !important;
+    border-color: #808080 !important;
+    ;
+}
+
+.navleft {
+    margin-left: 140px !important;
+}
+
+.menucenter {
+    margin-right: 335px !important;
+    font-family: Candara !important;
+    font-size: 16px !important;
+    padding: 19px 0px 0px 0px !important;
+}
+
+.margin-bottom-menu {
+    margin-bottom: 0px !important;
+    border: 0px solid transparent !important;
+    background-color: rgba(40, 39, 39, 0.58) !important;
+}
+
+.image {
+    background-image: url(pictures/work.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 0px -170px;
+}
+
+.navbar-brand {
+  
+    padding: 7px 15px !important;
+}
+
+.white-bold {
+  font-size: 55px;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px !important;
+    font-family: Century Schoolbook;
+}
+.link {
+    padding: 100px 0px 21px 0px;
+}
+
+.image-padding-bottom {
+    padding-bottom: 90px;
+}
+
+.active1 {
+    color: #eca560 !important;
+    font-size: 15px;
+}
+
+.active2 {
+    color: #fff !important;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.slider-text {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+
+.footer {
+    background-color: #3a3838;
+    padding: 30px 0px 108px 0px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: -webkit-pictograph;
+}
+
+.footer1 {
+    background-color: #3a3838;
+    padding: 30px 0px 40px 0px;
+    color: white !important;
+    text-align: center;
+    font-size: 25px;
+    font-family: -webkit-pictograph;
+}
+
+.footer2 {
+    background-color: #3a3838;
+    padding: 0px 15px 12px 0px;
+    color: white !important;
+    font-size: 15px;
+    font-family: calibri light;
+}
+
+.footer3 {
+    padding-right: 17px;
+}
+
+.footer-menu {
+    background-color: black;
+
+}
+
+.footer-menu1 {
+    background-color: black;
+
+}
+
+.active-center {
+    font-size: 14px;
+    font-family: serif;
+    margin-left: 310px;
+}
+
+.footer-text {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px 0px 15px 0px;
+    font-family: calibri;
+}
+
+.footer-text1 {
+    background-color: black;
+    padding-left: 20px;
+    font-family: calibri light;
+    color: #dad6d6;
+}
+
+.connect {
+    border-radius: 15px;
+    border: 1px #3a3838 solid;
+    font-size: 15px !important;
+    padding: 5px 8px 5px 8px;
+    background-color: #656060;
+    color: #fff;
+}
+
+.connect1 {
+    border-radius: 37px;
+    border: 1px #3a3838 solid;
+    font-size: 15px !important;
+    padding: 5px 5px 5px 6px;
+    background-color: #656060;
+    color: #fff;
+}
+
+.connect2 {
+    border-radius: 24px;
+    border: 1px #3a3838 solid;
+    font-size: 15px !important;
+    padding: 5px 3px 5px 5px;
+    background-color: #656060;
+    color: #fff;
+}
+
+.connect3 {
+    border-radius: 15px;
+    border: 1px #3a3838 solid;
+    font-size: 15px !important;
+    padding: 5px 7px 5px 7px;
+    background-color: #656060;
+    color: #fff;
+}
+
+.paragraph {
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px !important;
+    font-family: Century Schoolbook;
+    color: #e0e0e0b0;
+}
+
+.box-text {
+    z-index: 2;
+    position: relative;
+    /* float: left; */
+    text-align: center;
+}
+
+.overlay {
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 95.5%; */
+    opacity: 0.3;
+    margin: 0px;
+    background-color: #060606;
+    /* z-index: 0; */
+}
+
+.box {
+
+    height: 300px;
+    width: 100%;
+    background-image: url(pictures/heritage.jpg);
+    margin-top: 15px;
+
+}
+
+.box1 {
+
+    height: 300px;
+    width: 100%;
+    background-image: url(pictures/wmm.jpg);
+    margin-top: 15px;
+}
+
+.box2 {
+
+    height: 300px;
+    width: 100%;
+    background-image: url(pictures/Hotel%20logo.jpg);
+    margin-top: 15px;
+
+}
+.box3 {
+
+    height: 300;
+    width: 100%;
+    background-image: url(pictures/PV%20logo.png);
+    margin-top: 15px;
+
+}
+.box4 {
+
+    height: 300px;
+    width: 100%;
+    background-image: url(pictures/compress.jpg);
+    margin-top: 15px;
+
+}
+.box5 {
+
+    height: 300px;
+    width: 100%;
+    background-image: url(pictures/portfolio.jpg);
+    margin-top: 15px;
+
+}
+
+.display {
+    display: block !important;
+
+}
+
+.display1 {
+    padding: 218px 0px 218px 0px !important;
+
+}
+
+.display1:hover {
+    padding: 200px 0px 236px 0px !important;
+
+}
+
+.text-padding {
+    padding: 30px;
+    margin-top: 120px;
+}
+
+.padding {
+    padding: 30px;
+}
+
+.boxhover {
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color: rgba(93, 90, 90, 0.79);
+    position: absolute;
+    top: 15px;
+    z-index: 5;
+    display: none;
+}
+
+.innerBox {
+    padding: 98px 0px 98px 0px;
+    text-align: center;
+    font-size: 45px;
+    font-family: serif;
+    color: white !important;
+
+
+}
+
+.image-text {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    height: 500px;
+    padding: 150px 0px 0px 0px;
+    background-color: rgba(2, 2, 2, 0.37);
+}
+
+.center {
+    padding-top: 20px;
+    text-align: center;
+    background-color: gray;
+    padding-bottom: 20px;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.text {
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    float: left;
+    padding: 9px 0px 10px 57px;
+    color: #C19B76;
+    font-family: Candara;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: #C19B76;
+    text-decoration: none;
+}
+
+.box:hover .boxhover {
+    display: block;
+}
+
+.box1:hover .boxhover {
+    display: block;
+}
+
+.box2:hover .boxhover {
+    display: block;
+}
+
+.roofer
+{
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}

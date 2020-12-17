@@ -1,0 +1,115 @@
+<html>
+<head>
+        <title>Contact</title>
+<link rel="stylesheet" href="contact.css" />
+<link rel="stylesheet" href="bootstrap/bootstrap.css" />
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/contact.js"></script>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+<script src="bootstrap/bootstrap.min.js" ></script>
+<link rel="stylesheet" href="fonts/css/font-awesome.min.css" />    
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+    
+</head>
+<body>
+	<nav class="Mymenu navbar navbar-default margin-bottom-menu navbar-fixed-top" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class=" navleft navbar-brand" href="home.html"> <img src="pictures/logo.png" alt="logo" height="70px"></a>
+    </div>
+      
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+      <ul class=" menucenter nav navbar-nav navbar-right">
+        <li><a class="active" href="home.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+<div class="row">
+	<div class="image">
+		<div class="image-text"><h1 class="white-bold">Contact</h1>
+		<p class="paragraph">Want to get in touch? We'd love to hear from you.Here's how you can reach us...</p>
+		<div class="link"><a class="active1" href="home.html">Home</a><span class="active2">/</span><span class="active2">Contact</span>
+		</div>
+		</div>
+	</div>
+</div>
+
+</div>
+<div class="container-fluid">
+	<div class="row">
+        <div class="col-md-1"></div>
+		<div class="col-md-3 contact-padding-bottom"><h3 class="heading-bold">Get in touch!</h3>
+			<div class="heading-bold1">Address:<span class="head-bold">Kitchener,ON</span></div>
+			<div class="heading-bold1">Phone:<span  class="head-bold"> +1 647-821-3821</span></div>
+			<div class="heading-bold1">Email:<span  class="head-bold">Sunaina.mellra@gmail.com</span></div>
+		</div>
+        <div class="col-md-2"></div>
+		<div class="col-md-4 col-md-offset-1">
+			<form class="formdesign">
+				<div class="form-group contact-form-bottom">
+					<input type="name"  class="form-control background-form" id="name"  placeholder="Name">
+				</div>
+				<div class="form-group contact-form-bottom">
+					<input type="email" class="form-control  background-form" id="emailID"  placeholder="Email">
+				</div>
+				<div class="form-group contact-form-bottom">
+					<textarea class="form-control  background-form" id="exampleTextarea" rows="3" placeholder="Your Message"></textarea>
+				</div>
+				<button onclick="sendemail()"  type="submit" class="btn btn-default btn-info">Send Message</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+	<div id="map" class="col-md-12"></div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row footer-padding-top">
+		<div class="col-md-12 col-sm-12 col-xs-12 footer1">Connect with me
+			<div class="footer2">Social Media Channels</div>
+				<div class="footer3">
+					<a target=”_blank” href="http://www.facebook.com"><i class="fa fa-facebook connect" aria-hidden="true"></i></a>
+					<a target=”_blank” href="http://www.twitter.com"><i class="fa fa-twitter connect1" aria-hidden="true"></i></a>
+					<a target=”_blank” href="http://www.googleplus.com"><i class="fa fa-google-plus connect2" aria-hidden="true"></i></a>
+					<a target=”_blank” href="http://www.instagram.com"><i class="fa fa-instagram connect3" aria-hidden="true"></i></a>
+				</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6 footer-menu" id="bs-example-navbar-collapse-1">
+		    <ul class=" nav navbar-nav navbar-right footer-menu1">
+				<li><a class="active active-center" href="home.css">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="work.html">WORK</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="col-md-6 footer-text">Sunaina&#64;2020<span class="footer-text1">All rights reserved</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>
